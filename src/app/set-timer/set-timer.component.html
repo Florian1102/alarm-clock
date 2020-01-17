@@ -1,0 +1,15 @@
+<div class="row" style="padding-top: 50px;">
+    <div class="col-2">
+        <b>Timer: </b>
+    </div>
+
+    <div class="col-2">
+        <input type="time" [(ngModel)]="alarmTime">
+    </div>
+
+    <div class="col-1"></div>
+    
+    <div class="col-2">
+        <button class="btn btn-primary" type="button" (click)="setTimer()" style="width: 100%;">Wecker stellen</button>
+    </div>
+</div>

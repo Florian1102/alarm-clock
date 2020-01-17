@@ -1,0 +1,18 @@
+<div class="row" style="padding-top: 30px;">
+    <div class="col-3">
+        <b>Aktuelle Uhrzeit: </b>
+    </div>
+
+    <div class="col-3 text-right">
+        {{currentTime | date:"HH:mm:ss"}}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-3">
+        <b>Zeit bis zum Wecken:</b>
+    </div>
+    <div class="col-3 text-right">
+        {{days}}d {{hours}}h {{minutes}}m {{seconds}}s
+    </div>
+</div>
